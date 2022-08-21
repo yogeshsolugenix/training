@@ -1,0 +1,145 @@
+body{
+    background-color: blueviolet;
+    padding:0;
+    font-family:verdana;
+    margin:0;
+}
+
+.flex-container{
+    background-color: aqua;
+    display: flex;
+    background-color:chartreuse;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    flex-wrap: nowrap;
+    padding: 10px;
+
+}
+.nav-items{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nav-items > div{
+    padding: 10px;
+}
+
+.nav-items > div button{
+    background: none;
+    border: 0;
+    font-weight: bold;
+    font-size: 17px;
+    outline:none;
+    cursor: pointer;
+    padding:18px 16px;
+}
+
+.nav-items > div a{
+    text-decoration: none;
+}
+.flex-container > div{
+    width:100%;
+    font-size: 20px;
+    text-align: center;
+}
+.flex-container > div:first-child{
+    text-align: left;
+    font-size:30px;
+    vertical-align: -webkit-baseline-middle;
+    height: 30px;
+    padding-top: 15px;
+    padding-left:15px;
+}
+
+.masthead{
+    display: flex;
+    margin-top:50px;
+    flex-wrap: nowrap;
+}
+.masthead  div:first-child{
+    width:50%;
+}
+.masthead  div:first-child h1{
+    width:100%;
+    font-size:40px;
+    padding: 0px;
+    color:#FFF;
+}
+.hero-left{
+    text-align: center;
+    text-align: center;
+}
+.hero-left input{
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    padding: 5px;
+    margin-right: 10px;
+    width: 250px;
+}
+.hero-left input[type='text']{
+    padding-left:10px;
+}
+.hero-image img{
+    border-radius:50px;
+}
+.hero-left button{
+    background:blueviolet;
+    outline:none;
+    color:#FFF;
+    border:1px solid #FFF;
+    border-radius:10px;
+    padding:10px;
+    cursor: pointer;
+}
+.hero-left .getintouch{
+    background: lightgray;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+.hero-left h2{
+    color:coral;
+    font-size:35px;
+}
+.company-domains{
+    display: flex;
+    flex-wrap: nowrap;
+    border:1px slid #ccc;
+    border-radius: 10px;
+    margin:20px;
+    padding:20px;
+
+}
+.company-domains > div{
+    margin:10px;
+    padding:15px;
+    background-color: chocolate;
+    color:#FFF;
+    border-radius: 10px;
+    font-size:15px;
+    width:25%;
+    opacity: 80%;
+    
+
+}
+.company-domains > div label{
+    font-size: 20px;
+    font-weight: bold;
+    color:#FFF;
+}
+
+.company-domains > div > div{
+    margin-top: 10px;
+    min-height: 110px;
+    text-align: justify;
+    word-break: break-all;
+}
+.company-domains > div  a{
+    color:#FFF;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+}
